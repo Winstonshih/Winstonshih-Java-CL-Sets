@@ -49,6 +49,6 @@ public class Lab {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeItem(Set<Integer> set, int item){
-        set.remove(item)
+        set.remove(item);
     }
 }
